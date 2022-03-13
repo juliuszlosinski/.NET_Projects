@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Drak",
+    "Type": "Water",
+    "Age": 18,
+    "Gender": "Male",
+    "Image": "https://cdn.pixabay.com/photo/2016/01/10/14/14/monster-1131847_1280.png"
+  },
+  {
+    "Name": "Wolf",
+    "Type": "Sand",
+    "Age": 20,
+    "Gender": "Male",
+    "Image": "https://i.pinimg.com/originals/7d/18/d9/7d18d9261859c34f1342784b9990b451.png"
+  },
+  {
+    "Name": "Copl",
+    "Type": "Water",
+    "Age": 19,
+    "Gender": "Female",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOtBqDRaQtwbuuAYzm1G1Qe3J9hWUhJOJBHOAL8b4sT8ilDWdG4UHdAxoMqilDGTa9YrI\u0026usqp=CAU"
+  }
+]

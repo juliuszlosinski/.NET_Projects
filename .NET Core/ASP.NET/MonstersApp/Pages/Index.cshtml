@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="card-columns">
+    @foreach (var monster in Model.Monsters)
+    {
+        <div class="card">
+            <div class="card-img" style="background-image: url('@monster.Image');">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Name: @monster.Name</h5>
+                <p class="card-text">Type: @monster.Type, Age: @monster.Age, Gender: @monster.Gender</p>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="text-center">
+    <h2>REST API: </h2>
+    <p>GET: /api/Monster</p>
+    <p>POST: /api/Monster</p>
+    <p>DELETE: /api/Monster/{name}</p>
+    <p>UPDATE: /api/Monster/{name}</p>
+</div>
